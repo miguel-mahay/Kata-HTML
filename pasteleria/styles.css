@@ -1,0 +1,309 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1300px;
+}
+
+
+
+/*  ========== HEADER  ========== */
+
+.header_container {
+    height: 100vh;
+    background-image: url(./imagenes/fondo_principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont_head {
+    padding: 10px 0;
+}
+
+.nav_header {
+    color: black;
+    height: 85px;
+    border-bottom: 1px solid #F08080;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.link {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 1000;
+    padding: 10px;
+    color: #5DADE2;
+}
+
+.link_pedido {
+    color: #F08080
+}
+
+.main_text {
+    position: absolute;
+    top:50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    text-align: center;
+}
+.main_title{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: #F08080;
+}
+
+.secundary_text { 
+    font-size: 25px;
+    color: #5DADE2;
+}
+
+/*  ========== SABORES Y DECORACIONES ========== */
+.sabores {
+    background-color: #FDEDEC;
+}
+
+.adornos {
+    background-color: #EBF5FB;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    margin: 40px 0 20px;
+    text-align: center;
+    
+}
+
+.card_img {
+    text-align: left;
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_title {
+    font-weight: 800;
+}
+
+.card_price {
+    font-weight: 600;
+    color: #5DADE2;
+}
+
+.container_title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    color: #F08080;
+}
+.container_phrase {
+    text-align: center;
+    font-size: 17px;
+}
+
+/*  ========== CONTACT ========== */
+.contact {
+    width: 50%;
+}
+
+.contact_container_main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contact_container {
+    margin: 30px 5px;
+    
+}
+
+.container_information {
+   margin-bottom: 50px;
+}
+
+/*  ========== FORM ========== */
+
+.container_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_form {
+    margin-bottom: 30px;
+}
+
+
+.form_text {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.form_header {
+    margin-bottom: 30px;
+}
+
+.form_input {
+    width: 100%;
+    height: 100%;
+    padding: 22px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid #5DADE2;
+}
+
+
+.form_text_text {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 30px 0 10px;
+}
+
+.text_area {
+    text-align: center;
+}
+textarea {
+    width: 100%;
+}
+
+
+/*  ========== VISTA PASTELERO ========== */
+
+.pedidos_title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.dispo_title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #5DADE2;
+}
+
+.pedidos {
+    float: left;
+    width: 65%;
+    height: 100vh;
+}
+
+.disponibilidad {
+    float: left;
+    width: 35%;
+    height: 100vh;
+    background-color: #EAEDED;
+}
+
+.card_dispo {
+    margin: 20px 0 50px;
+    padding: 10px 20px;
+}
+
+.dispo_title_card {
+    font-size: 20px;
+    color: #85C1E9;
+}
+
+.dispo_text {
+    margin:5px 0;
+}
+
+.card_pedido {
+    margin: 30px 20px 45px;
+}
+
+
+.header_card_pedido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F08080;
+    padding: 10px 10px;
+}
+
+.header_card_pedido p {
+    font-weight: 600;
+    color: white;
+}
+
+
+.cliente_card_pedido {
+    background-color: #E5E7E9;
+    padding: 10px 10px;
+}
+
+
+
+.cliente_card_pedido p {
+    margin: 2px 0;
+    color: #B03A2E;
+    font-weight: 550;
+}
+
+.cliente_card_sa {
+    background-color: #E5E7E9;
+    padding: 10px 10px;
+}
+
+.cliente_card_sa p {
+    font-weight: 550;
+    margin: 2px 0;
+}
+
+.cliente_card_detalle {
+    background-color: #E5E7E9;
+    padding: 10px 10px;
+}
+
+.cliente_card_detalle p {
+    font-weight: 550;
+    margin: 2px 0;
+}
+
+/*  ========== FOOTER ========== */
+
+footer {
+    background-color: #F08080;
+    text-align: center;
+}
+
+
+.logo_footer {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
